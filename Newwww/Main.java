@@ -18,6 +18,9 @@ class input{
         String[]i=tem.finall(a.clean(z),a.clean(a.find(x)),a.clean(a.find(y))).split("");
         if (i.length > 41) {
             System.out.println((String.join("",Arrays.copyOfRange(i, 0, 41)))+ "...");}
+        else {
+            System.out.println(tem.finall(a.clean(z),a.clean(a.find(x)),a.clean(a.find(y))));
+        }
     }
 }
 class exeption {
